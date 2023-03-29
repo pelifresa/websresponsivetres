@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructura de maquetación</title>
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="center">
+            <!-- Logo -->
+            <div id="logo">
+                <img src="assets/images/logo.png" class="app-logo" alt="logotipo" />
+                <span id="brand">
+                    <span> <strong>Curso </strong>React</span>
+                </span>
+            </div>
+            <!-- Menú -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="formulario.html">Formulario</a></li>
+                    <li><a href="#">Página 1</a></li>
+                    <li><a href="#">Página 2</a></li>
+                </ul>
+            </nav>
+
+            <!-- Limpiar flotados -->
+            <div class="clear-fix"></div>
+        </div>
+    </header>
+    <div class="center">
+        <section id="content">
+            <article class="article-item article-detail">
+                <div class="image-wrap">
+                    <img src="https://media.istockphoto.com/id/1228962068/photo/colorful-autumn-season-and-mountain-fuji-with-morning-fog-and-red-leaves-at-lake-kawaguchiko.jpg?s=612x612&w=0&k=20&c=fsAoWZPMPv0iqwmGLVWginjP_jk3-tVsBCg4ym-e_Js="
+                        alt="paisaje" />
+                </div>
+                <h1 class="subheader">Artículo de prueba</h1>
+                <span class="date">
+                    Hace 5 minutos
+                </span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend consequat porttitor. Etiam
+                    sit amet dolor euismod, elementum felis ac, imperdiet libero. Nunc mollis diam elit, quis ultricies
+                    augue vulputate quis. Quisque vehicula vitae purus at rhoncus. Ut scelerisque enim erat, nec semper
+                    dui varius in. Sed augue massa, congue quis congue sed, varius et orci. Sed suscipit magna eu dui
+                    tempor eleifend. Suspendisse vitae dolor dolor. Ut quis pharetra purus. Aliquam a felis vitae libero
+                    eleifend ullamcorper.
+                </p>
+                <p>
+                    Nulla ac massa nunc. Praesent vel dui nisi. Proin semper mauris malesuada sagittis maximus. Cras
+                    fermentum tortor vitae augue imperdiet mattis. Proin ut nunc enim. Donec faucibus velit erat,
+                    maximus tristique metus tempus vel. Ut at risus augue. Duis condimentum ut urna non accumsan.
+                    Cras
+                    bibendum massa a porta luctus. Aenean aliquam massa vel nibh fringilla ullamcorper. Mauris non
+                    magna
+                    suscipit, faucibus neque in, interdum velit.
+                </p>
+                <p>
+                    Morbi pharetra, neque sit amet cursus laoreet, tortor nisi ultricies velit, sit amet malesuada
+                    enim
+                    justo nec justo. Curabitur non risus feugiat, fringilla orci eu, facilisis felis. Etiam lobortis
+                    elementum mi, nec ullamcorper justo porttitor eget. Curabitur at augue a lectus commodo suscipit
+                    ut
+                    at lectus. Nullam dignissim mauris vitae viverra mattis. Donec quis ante interdum, elementum
+                    arcu
+                    eget, fringilla mauris. Phasellus rutrum turpis felis, eget facilisis ex efficitur in. Phasellus
+                    pulvinar ligula mattis urna consectetur, et viverra leo iaculis. Nulla id rhoncus lacus. Sed
+                    venenatis metus lacus, vitae gravida augue mattis quis. In eget massa leo. Cras eu magna quam.
+                </p>
+                <div class="clearfix"></div>
+            </article>
+            <!-- Añadir articulos via js -->
+
+        </section>
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Puedes hacer esto</h3>
+                <a href="#" class="btn btn-sucess">Crear artículo</a>
+            </div>
+            <div id="search" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el artículo que buscas</p>
+                <form>
+                    <input type="text" name="search" />
+                    <input type="submit" name="submit" value="Buscar" class="btn" />
+
+                </form>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+    </div>
+    <footer id="footer">
+        <div class="center">
+            <p>
+                &copy; Master en framework para Javascript
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
